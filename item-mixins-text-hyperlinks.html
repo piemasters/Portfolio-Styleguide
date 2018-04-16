@@ -76,11 +76,55 @@
 
     <!-- documentation. -->
     <section class="kss-documentation">
-        <article class="kss-markdown">
-          <p>#David Norton Portfolio Style Guide</p>
-<p>Placeholder text</p>
 
-        </article>
+        <!--
+          display each section, in order.
+          the "root" element comes first in this loop, and can be detected using
+          the "#if @first" block as seen below.
+        -->
+            <header class="kss-section kss-section--depth-3" id="kssref-mixins-text-hyperlinks">
+
+            <article class="kss-section__content">
+                <p class="kss-section__source">Source: <span>styles/_mixins.scss</span>, line <span>3</span></p>
+
+              <a class="kss-section__permalink" href="#kssref-mixins-text-hyperlinks">
+                <h3 class="kss-section__item kss-section__item--depth-3">
+                  <span class="kss-section__ref">3.1.1</span>
+                  <span class="kss-section__name">Link colors mixin</span>
+                </h3>
+              </a>
+
+                <div class="kss-section__description"><p>This mixin is used to apply the correct styling to hyperlinks throughout the application.
+To use the mixin add the following to the CSS class with whatever colors desired:</p>
+<pre>
+p {
+  @include link-colors($brand-dark, $brand-light, $brand);
+}
+</pre></div>
+
+            </article>
+
+              <article class="kss-section__modifiers">
+                <h1 class="kss-modifiers__heading">Example</h1>
+
+
+                <div class="kss-modifiers__example"><p>
+  This is some plain text.
+  <a href="#">This is an example of a hyperlink using the 'link-colors' mixin.</a>
+  This is some more plain text.
+<p></div>
+
+              </article>
+
+                <article class="kss-section__markup">
+                  <pre><code class="language-markup">&lt;p&gt;
+  This is some plain text.
+  &lt;a href&#x3D;&quot;#&quot;&gt;This is an example of a hyperlink using the &#x27;link-colors&#x27; mixin.&lt;/a&gt;
+  This is some more plain text.
+&lt;p&gt;</code></pre>
+                </article>
+
+            </header>
     </section>
     <!-- /documentation. -->
 

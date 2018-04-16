@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio Style Guide</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="generator" content="kss-node">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,300">
+    <link rel="stylesheet" href="kss-assets/vendor/prism.css">
+    <link rel="stylesheet" href="kss-assets/css/kss.css">
+    <link rel="stylesheet" href="styles.bundle.css">
+<link rel="stylesheet" href="../kss-styles.css">
+
+  </head>
+
+  <body class="kss-body">
+
+    <!-- header. -->
+    <header class="kss-header">
+      <section class="kss-header__inner">
+        <a class="kss-header__hamburger-trigger">
+          <div class="kss-header__hamburger"></div>
+        </a>
+        <h1 class="kss-header__title kss-title">Portfolio Style Guide</h1>
+      </section>
+    </header>
+    <!-- /header. -->
+
+
+    <!-- navigation. -->
+    <section class="kss-navigation">
+      <h1 class="kss-navigation__title kss-title">Portfolio Style Guide</h1>
+      <ul class="kss-nav">
+        <li class="kss-nav__item">
+          <a href="index.html">
+            <span class="kss-nav__ref">0</span>
+            <span class="kss-nav__name">Introduction</span>
+          </a>
+        </li>
+          <li class="kss-nav__item">
+            <a class="kss-state-active" href="section-colors.html">
+              <span class="kss-nav__ref">1</span>
+              <span class="kss-nav__name">Colors</span>
+            </a>
+                <ul class="kss-nav__subnav">
+                    <li class="kss-nav__item ">
+                      <a href="section-colors.html#kssref-colors-accent">
+                        <span class="kss-nav__ref">1.1</span>
+                        <span class="kss-nav__name">Accent Colors</span>
+                      </a>
+                    </li>
+                    <li class="kss-nav__item ">
+                      <a href="section-colors.html#kssref-colors-background">
+                        <span class="kss-nav__ref">1.2</span>
+                        <span class="kss-nav__name">Background Colors</span>
+                      </a>
+                    </li>
+                    <li class="kss-nav__item ">
+                      <a href="section-colors.html#kssref-colors-brand">
+                        <span class="kss-nav__ref">1.3</span>
+                        <span class="kss-nav__name">Brand Colors</span>
+                      </a>
+                    </li>
+                    <li class="kss-nav__item ">
+                      <a href="section-colors.html#kssref-colors-text">
+                        <span class="kss-nav__ref">1.4</span>
+                        <span class="kss-nav__name">Text Colors</span>
+                      </a>
+                    </li>
+                </ul>
+          </li>
+          <li class="kss-nav__item">
+            <a class="" href="section-layout.html">
+              <span class="kss-nav__ref">2</span>
+              <span class="kss-nav__name">Layout</span>
+            </a>
+          </li>
+          <li class="kss-nav__item">
+            <a class="" href="section-mixins.html">
+              <span class="kss-nav__ref">3</span>
+              <span class="kss-nav__name">Mixins</span>
+            </a>
+          </li>
+          <li class="kss-nav__item">
+            <a class="" href="section-text.html">
+              <span class="kss-nav__ref">4</span>
+              <span class="kss-nav__name">Text</span>
+            </a>
+          </li>
+          <li class="kss-nav__item">
+            <a class="" href="section-variables.html">
+              <span class="kss-nav__ref">5</span>
+              <span class="kss-nav__name">Variables</span>
+            </a>
+          </li>
+      </ul>
+    </section>
+    <!-- /navigation. -->
+
+
+    <!-- documentation. -->
+    <section class="kss-documentation">
+
+        <!--
+          display each section, in order.
+          the "root" element comes first in this loop, and can be detected using
+          the "#if @first" block as seen below.
+        -->
+            <header class="kss-section kss-section--depth-1" id="kssref-colors">
+
+            <article class="kss-section__content">
+
+              <a class="kss-section__permalink" href="#kssref-colors">
+                <h1 class="kss-section__item kss-section__item--depth-1">
+                  <span class="kss-section__ref">1</span>
+                  <span class="kss-section__name">Colors</span>
+                </h1>
+              </a>
+
+
+            </article>
+
+
+            </header>
+            <section class="kss-section kss-section--depth-2" id="kssref-colors-accent">
+
+            <article class="kss-section__content">
+                <p class="kss-section__source">Source: <span>styles/_colors.scss</span>, line <span>14</span></p>
+
+              <a class="kss-section__permalink" href="#kssref-colors-accent">
+                <h2 class="kss-section__item kss-section__item--depth-2">
+                  <span class="kss-section__ref">1.1</span>
+                  <span class="kss-section__name">Accent Colors</span>
+                </h2>
+              </a>
+
+                <div class="kss-section__description"><p>Colors used for the accent to the brand.</p>
+</div>
+
+                <ul class="kss-parameters">
+                  <li class="kss-parameters__item">
+                    <p class="kss-parameters__description">
+                      #FFCDD2; lighter accent alternative
+
+                    </p>
+                    <code class="kss-parameters__name">$accent-light</code>
+                  </li>
+                  <li class="kss-parameters__item">
+                    <p class="kss-parameters__description">
+                      #EF9A9A; core accent color
+
+                    </p>
+                    <code class="kss-parameters__name">$accent</code>
+                  </li>
+                  <li class="kss-parameters__item">
+                    <p class="kss-parameters__description">
+                      #E57373; darker accent alternative
+
+                    </p>
+                    <code class="kss-parameters__name">$accent-dark</code>
+                  </li>
+                </ul>
+            </article>
+
+
+            </section>
+            <section class="kss-section kss-section--depth-2" id="kssref-colors-background">
+
+            <article class="kss-section__content">
+                <p class="kss-section__source">Source: <span>styles/_colors.scss</span>, line <span>41</span></p>
+
+              <a class="kss-section__permalink" href="#kssref-colors-background">
+                <h2 class="kss-section__item kss-section__item--depth-2">
+                  <span class="kss-section__ref">1.2</span>
+                  <span class="kss-section__name">Background Colors</span>
+                </h2>
+              </a>
+
+                <div class="kss-section__description"><p>Colors used as the background color for different containers.</p>
+</div>
+
+                <ul class="kss-parameters">
+                  <li class="kss-parameters__item">
+                    <p class="kss-parameters__description">
+                      #F4F4F4; lighter text alternative
+
+                    </p>
+                    <code class="kss-parameters__name">$content</code>
+                  </li>
+                  <li class="kss-parameters__item">
+                    <p class="kss-parameters__description">
+                      #F7F3EA; core text color
+
+                    </p>
+                    <code class="kss-parameters__name">$aside</code>
+                  </li>
+                  <li class="kss-parameters__item">
+                    <p class="kss-parameters__description">
+                      #464F5D; darker text alternative
+
+                    </p>
+                    <code class="kss-parameters__name">$footer</code>
+                  </li>
+                </ul>
+            </article>
+
+
+            </section>
+            <section class="kss-section kss-section--depth-2" id="kssref-colors-brand">
+
+            <article class="kss-section__content">
+                <p class="kss-section__source">Source: <span>styles/_colors.scss</span>, line <span>1</span></p>
+
+              <a class="kss-section__permalink" href="#kssref-colors-brand">
+                <h2 class="kss-section__item kss-section__item--depth-2">
+                  <span class="kss-section__ref">1.3</span>
+                  <span class="kss-section__name">Brand Colors</span>
+                </h2>
+              </a>
+
+                <div class="kss-section__description"><p>Colors used for the core brand.</p>
+</div>
+
+                <ul class="kss-parameters">
+                  <li class="kss-parameters__item">
+                    <p class="kss-parameters__description">
+                      #7986CB; lighter brand alternative
+
+                    </p>
+                    <code class="kss-parameters__name">$brand-light</code>
+                  </li>
+                  <li class="kss-parameters__item">
+                    <p class="kss-parameters__description">
+                      #3F51B5; core brand color
+
+                    </p>
+                    <code class="kss-parameters__name">$brand</code>
+                  </li>
+                  <li class="kss-parameters__item">
+                    <p class="kss-parameters__description">
+                      #303F9F; darker brand alternative
+
+                    </p>
+                    <code class="kss-parameters__name">$$brand-dark</code>
+                  </li>
+                </ul>
+            </article>
+
+
+            </section>
+            <section class="kss-section kss-section--depth-2" id="kssref-colors-text">
+
+            <article class="kss-section__content">
+                <p class="kss-section__source">Source: <span>styles/_colors.scss</span>, line <span>27</span></p>
+
+              <a class="kss-section__permalink" href="#kssref-colors-text">
+                <h2 class="kss-section__item kss-section__item--depth-2">
+                  <span class="kss-section__ref">1.4</span>
+                  <span class="kss-section__name">Text Colors</span>
+                </h2>
+              </a>
+
+                <div class="kss-section__description"><p>Colors used for standard text.</p>
+</div>
+
+                <ul class="kss-parameters">
+                  <li class="kss-parameters__item">
+                    <p class="kss-parameters__description">
+                      #FFFFFF; lighter text alternative
+
+                    </p>
+                    <code class="kss-parameters__name">$text-light</code>
+                  </li>
+                  <li class="kss-parameters__item">
+                    <p class="kss-parameters__description">
+                      #9F9F9F; core text color
+
+                    </p>
+                    <code class="kss-parameters__name">$text</code>
+                  </li>
+                  <li class="kss-parameters__item">
+                    <p class="kss-parameters__description">
+                      #222222; darker text alternative
+
+                    </p>
+                    <code class="kss-parameters__name">$text-dark</code>
+                  </li>
+                </ul>
+            </article>
+
+
+            </section>
+    </section>
+    <!-- /documentation. -->
+
+
+
+  <!-- scripts. -->
+  <script src="kss-assets/vendor/jquery.js"></script>
+  <script src="kss-assets/vendor/prism.js"></script>
+  <script src="kss-assets/js/kss.js"></script>
+  
+  <!-- /scripts. -->
+
+  </body>
+</html>
