@@ -1,1 +1,1 @@
-<?php header( 'Location: /styleguide/index.html' ) ;  ?>
+<?php header( 'Location: /index.html' ) ;  ?>
