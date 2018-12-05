@@ -74,12 +74,15 @@ html {
   font-size: 3rem;
 }
 
+.kss-markdown h1,
+.kss-markdown h2,
 .kss-section__item,
 .kss-navigation__title,
 .kss-header__title,
 .kss-title,
 .kss-header,
 .kss-header__hamburger,
+.kss-modifiers__heading,
 .kss-header__hamburger::before,
 .kss-header__hamburger::after,
 .kss-nav__item a.kss-state-active,
