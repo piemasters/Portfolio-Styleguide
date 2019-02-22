@@ -1,0 +1,637 @@
+[
+  {
+    "id": 1,
+    "title": "Smartlock",
+    "img": "assets/images/projects/smartlock/cover.jpg",
+    "url": "https://play.google.com/store/apps/details?id=net.davidnorton.securityapp",
+    "overview": "online",
+    "technologies": [
+      "android", "espresso", "java", "material"
+    ],
+    "details": [
+      {
+        "id": "1",
+        "type": "cover",
+        "backgroundColor": "#FFFFFF",
+        "img": "assets/images/projects/smartlock/banner.jpg"
+      },
+      {
+        "id": "2",
+        "type": "overview",
+        "backgroundColor": "#FFFFFF",
+        "title": "Overview",
+        "project": {
+          "date": "Aug 2015",
+          "duration": "12 weeks",
+          "type": "Individual Academic Project"
+        },
+        "text": [
+          "Smartlock is Android Security Application"
+        ]
+      },
+      {
+        "id": "3",
+        "type": "technologies",
+        "backgroundColor": "#ECECEC",
+        "title": "Technologies"
+      },
+      {
+        "id": "4",
+        "type": "progress",
+        "backgroundColor": "#FFFFFF",
+        "title": "Progress",
+        "text": [
+
+        ]
+      },
+      {
+        "id": "5",
+        "type": "article",
+        "backgroundColor": "#ECECEC",
+        "title": "Screenshots",
+        "images": [
+          "assets/images/projects/smartlock/screenshot.png"
+        ],
+        "text": [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Passport Smartforms",
+    "img": "assets/images/projects/passports/cover.jpg",
+    "url": "https://www.gibraltar.gov.gi/new/passports-and-nationality",
+    "overview": "online",
+    "technologies": [
+      "javascript", "livecycle"
+    ],
+    "details": [
+      {
+        "id": "1",
+        "type": "cover",
+        "backgroundColor": "#FFFFFF",
+        "img": "assets/images/projects/passports/banner.jpg"
+      },
+      {
+        "id": "2",
+        "type": "overview",
+        "backgroundColor": "#FFFFFF",
+        "title": "Overview",
+        "project": {
+          "date": "Aug 2015",
+          "duration": "12 weeks",
+          "type": "Individual Academic Project"
+        },
+        "text": [
+          "This project involved designing and developing a set of 4 smart passport application forms."
+        ]
+      },
+      {
+        "id": "3",
+        "type": "technologies",
+        "backgroundColor": "#ECECEC",
+        "title": "Technologies"
+      },
+      {
+        "id": "4",
+        "type": "progress",
+        "backgroundColor": "#FFFFFF",
+        "title": "Progress",
+        "text": [
+
+        ]
+      },
+      {
+        "id": "5",
+        "type": "article",
+        "backgroundColor": "#ECECEC",
+        "title": "Screenshots",
+        "images": [
+          "assets/images/projects/passports/screenshot.png"
+        ],
+        "text": [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Python Blockchain",
+    "img": "assets/images/projects/blockchain/cover.png",
+    "url": "https://github.com/piemasters/Python-Blockchain",
+    "overview": "online",
+    "technologies": [
+      "bootstrap", "javascript", "python"
+    ],
+    "details": [
+      {
+        "id": "1",
+        "type": "cover",
+        "backgroundColor": "#FFFFFF",
+        "img": "assets/images/projects/blockchain/banner.jpg"
+      },
+      {
+        "id": "2",
+        "type": "overview",
+        "backgroundColor": "#FFFFFF",
+        "title": "Overview",
+        "project": {
+          "date": "Aug 2015",
+          "duration": "12 weeks",
+          "type": "Individual Academic Project"
+        },
+        "text": [
+          "This project was used to learn Python"
+        ]
+      },
+      {
+        "id": "3",
+        "type": "technologies",
+        "backgroundColor": "#ECECEC",
+        "title": "Technologies"
+      },
+      {
+        "id": "4",
+        "type": "progress",
+        "backgroundColor": "#FFFFFF",
+        "title": "Progress",
+        "text": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "BDT-Template",
+    "img": "assets/images/projects/bdt/cover.png",
+    "url": "https://github.com/piemasters/BDT-Template",
+    "overview": "A Python Automation Testing Framework",
+    "technologies": [
+      "behave", "cucumber", "python", "selenium"
+    ],
+    "details": [
+      {
+        "id": "1",
+        "type": "cover",
+        "backgroundColor": "#FFFFFF",
+        "img": "assets/images/projects/bdt/banner.jpg"
+      },
+      {
+        "id": "2",
+        "type": "overview",
+        "backgroundColor": "#FFFFFF",
+        "title": "Overview",
+        "project": {
+          "date": "Dec 2018",
+          "duration": "2 weeks",
+          "type": "Individual Academic Project"
+        },
+        "text": [
+          "This is a Python based template project used for running automated behavior driven tests across a number of projects."
+        ]
+      },
+      {
+        "id": "3",
+        "type": "technologies",
+        "backgroundColor": "#ECECEC",
+        "title": "Technologies"
+      },
+      {
+        "id": "4",
+        "type": "progress",
+        "backgroundColor": "#FFFFFF",
+        "title": "Progress",
+        "text": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Electron-Angular",
+    "img": "assets/images/projects/electron/cover.jpg",
+    "url": "https://github.com/piemasters/Electron-Angular",
+    "overview": "Angular Electron Template",
+    "technologies": [
+      "angular", "cli", "electron", "jasmine", "karma",
+      "protractor", "rxjs", "sass", "typescript"
+    ],
+    "details": [
+      {
+        "id": "1",
+        "type": "cover",
+        "backgroundColor": "#FFFFFF",
+        "img": "assets/images/projects/electron/banner.jpg"
+      },
+      {
+        "id": "2",
+        "type": "overview",
+        "backgroundColor": "#FFFFFF",
+        "title": "Overview",
+        "project": {
+          "date": "Aug 2015",
+          "duration": "3 Months (Part Time)",
+          "type": "Individual Academic Project"
+        },
+        "text": [
+          "Having worked on a project that required an Angular 4 project running within an Electron application I didn't want to go through the process of setting it up again from scratch in the future.",
+          "This project spins up a simple Angular application that can be served in a browser, or within an Electron application on Windows, Mac or Linux."
+        ]
+      },
+      {
+        "id": "3",
+        "type": "technologies",
+        "backgroundColor": "#ECECEC",
+        "title": "Technologies"
+      },
+      {
+        "id": "4",
+        "type": "progress",
+        "backgroundColor": "#FFFFFF",
+        "title": "Progress",
+        "text": [
+          "I was able to achieve the main goal of the project by developing a bare-bones Angular project that can run either in the browser, or within an Electron application on Windows, Mac or Linux. This has required relatively large updates between different versions of Angular and Electron.",
+          "The project can be further improved and stabilised as newer versions of Angular, NodeJs and Electron are released offering better support for the technology combination."
+        ]
+      },
+      {
+        "id": "5",
+        "type": "article",
+        "backgroundColor": "#ECECEC",
+        "title": "Screenshots",
+        "images": [
+          "assets/images/projects/electron/screenshot.png"
+        ],
+        "text": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Forestry TEP",
+    "img": "assets/images/projects/ftep/cover.jpg",
+    "url": "https://f-tep.com/app/",
+    "overview": "Forestry Thematic Exploitation Platform",
+    "technologies": [
+      "angularjs", "bootstrap", "grunt", "hateoas", "jasmine",
+      "javascript", "karma", "less", "material", "openlayers"
+    ],
+    "details": [
+      {
+        "id": "1",
+        "type": "cover",
+        "backgroundColor": "#FFFFFF",
+        "img": "assets/images/projects/ftep/banner.jpg"
+      },
+      {
+        "id": "2",
+        "type": "overview",
+        "backgroundColor": "#FFFFFF",
+        "title": "Overview",
+        "project": {
+          "date": "Oct 2016",
+          "duration": "6 Months (2 years support)",
+          "type": "Individual Academic Project"
+        },
+        "text": [
+          "Forestry Thematic Exploitation Platform (Forestry TEP) enables commercial, governmental and research users in the forestry sector globally to efficiently access satellite data based processing services and tools for generating value-added forest information products. Via the platform, the users can also create and share their own processing services, tools and generated products."
+
+        ]
+      },
+      {
+        "id": "3",
+        "type": "technologies",
+        "backgroundColor": "#ECECEC",
+        "title": "Technologies"
+      },
+      {
+        "id": "5",
+        "type": "article",
+        "backgroundColor": "#FFFFFF",
+        "title": "Screenshots",
+        "images": [
+          "assets/images/projects/ftep/screenshot.png"
+        ],
+        "text": [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Kanban Board",
+    "img": "assets/images/projects/kanban/cover.jpg",
+    "url": "https://kanban.davidnorton.app/",
+    "overview": "A simple Kanban board",
+    "technologies": [
+      "angular", "bootstrap", "cli", "jasmine", "karma",
+      "ng-bootstrap", "protractor", "rxjs", "sass", "typescript"
+    ],
+    "details": [
+      {
+        "id": "1",
+        "type": "cover",
+        "backgroundColor": "#FFFFFF",
+        "img": "assets/images/projects/kanban/cover.jpg"
+      },
+      {
+        "id": "2",
+        "type": "overview",
+        "backgroundColor": "#FFFFFF",
+        "title": "Overview",
+        "project": {
+          "date": "Apr 2015",
+          "duration": "3 weeks",
+          "type": "Individual Academic Project"
+        },
+        "text": [
+          "Having used a number of different tools with Kanban boards I wanted to create my own simple implementation that I could update and adapt for my own personal needs."
+        ]
+      },
+      {
+        "id": "3",
+        "type": "technologies",
+        "backgroundColor": "#ECECEC",
+        "title": "Technologies"
+      },
+      {
+        "id": "4",
+        "type": "progress",
+        "backgroundColor": "#FFFFFF",
+        "title": "Progress",
+        "text": [
+          "To learn the basics of the new version of Angular (4) I created this project to test out some of the features. I managed to develop a simple board where you can create tickets under a user and move them into different columns.",
+          "The next steps would be to implement some form of data persistence so that these tickets can be saved between sessions."
+        ]
+      },
+      {
+        "id": "5",
+        "type": "article",
+        "backgroundColor": "#ECECEC",
+        "title": "Screenshots",
+        "images": [
+          "assets/images/projects/kanban/screenshot.png"
+        ],
+        "text": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Crypto Dashboard",
+    "img": "assets/images/projects/crypto/cover.jpg",
+    "url": "https://crypto.davidnorton.app/",
+    "overview": "A crypto-currency price dashboard",
+    "technologies": [
+      "angular", "bootstrap", "cli", "firebase", "jasmine", "karma",
+      "ng-bootstrap", "protractor", "rxjs", "sass", "typescript"
+    ],
+    "details": [
+      {
+        "id": "1",
+        "type": "cover",
+        "backgroundColor": "#FFFFFF",
+        "img": "assets/images/projects/crypto/banner.jpg"
+      },
+      {
+        "id": "2",
+        "type": "overview",
+        "backgroundColor": "#FFFFFF",
+        "title": "Overview",
+        "project": {
+          "date": "Apr 2018",
+          "duration": "5 weeks (Part Time)",
+          "type": "Individual Academic Project"
+        },
+        "text": [
+          "Having invested in a few crypto-currencies I wanted a dashboard where I would be able to monitor the price change over the last day and month and also to view total price of my wallet. However, I wanted to do this without having to enter my wallet details into a third party website.",
+          "The idea was to create a dashboard that allowed you to enter the amount of each currency you own and the amount you paid for each, without linking it directly to your wallet. Push notifications could then be setup to alert you when value is at a all time high or starting to crash."
+        ]
+      },
+      {
+        "id": "3",
+        "type": "technologies",
+        "backgroundColor": "#ECECEC",
+        "title": "Technologies"
+      },
+      {
+        "id": "4",
+        "type": "progress",
+        "backgroundColor": "#FFFFFF",
+        "title": "Progress",
+        "text": [
+          "Initial progress was made working with the crypto API for displaying each coins price changes over the last 24 hours and 7 days. Unfortunately this was all the time I had before actual work got in the way.",
+          "The next steps will be to setup a user wallet where users are able to enter their coin amounts and purchase values to track total value."
+        ]
+      },
+      {
+        "id": "5",
+        "type": "article",
+        "backgroundColor": "#ECECEC",
+        "title": "Screenshots",
+        "images": [
+          "assets/images/projects/crypto/screenshot.png"
+        ],
+        "text": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Cookbook",
+    "img": "assets/images/projects/cookbook/cover.jpg",
+    "url": "https://cookbook.davidnorton.app/",
+    "overview": "A recipe application",
+    "technologies": [
+      "angular", "bootstrap", "cli", "firebase", "jasmine", "karma",
+      "ng-bootstrap", "ngrx", "protractor", "rxjs", "sass", "typescript"
+    ],
+    "details": [
+      {
+        "id": "1",
+        "type": "cover",
+        "backgroundColor": "#FFFFFF",
+        "img": "assets/images/projects/cookbook/banner.jpg"
+      },
+      {
+        "id": "2",
+        "type": "overview",
+        "backgroundColor": "#FFFFFF",
+        "title": "Overview",
+        "project": {
+          "date": "May 2018",
+          "duration": "5 Months (Part Time)",
+          "type": "Individual Academic Project"
+        },
+        "text": [
+          "I have always had a large number of cookbooks but it is pretty rare that I actually dig them out. This is largely down to never having all the ingredients for the recipes I like the sound of on the day.",
+          "The idea behind this project is to be able to search for recipes based on the ingredients you have. If you are missing any ingredients it's a quick click to add them to your basket for next time."
+        ]
+      },
+      {
+        "id": "3",
+        "type": "technologies",
+        "backgroundColor": "#ECECEC",
+        "title": "Technologies"
+      },
+      {
+        "id": "4",
+        "type": "progress",
+        "backgroundColor": "#FFFFFF",
+        "title": "Progress",
+        "text": [
+          "A reasonable amount of progress was made on the project, despite not getting much time to spend on it. The data structure and general layout are most of the way there and just require a few tweaks. The basic functionality of adding, updating and deleting recipes is up and running.",
+          "The next steps is to improve the connection to the backend database, add missing functionality such as rating and added items to the basket and to generally improve the site styling."
+        ]
+      },
+      {
+        "id": "5",
+        "type": "article",
+        "backgroundColor": "#ECECEC",
+        "title": "Screenshots",
+        "images": [
+          "assets/images/projects/cookbook/screenshot.png"
+        ],
+        "text": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Forestry TEP v3",
+    "img": "assets/images/projects/ftepv3/cover.jpg",
+    "url": "https://ftep.davidnorton.app/",
+    "overview": "A reimplementation of the F-TEP portal.",
+    "technologies": [
+      "angular", "bootstrap", "cli", "jasmine", "karma", "ng-bootstrap",
+      "ngrx", "penv", "protractor", "rxjs", "sass", "travis", "typescript"
+    ],
+    "details": [
+      {
+        "id": "1",
+        "type": "cover",
+        "backgroundColor": "#FFFFFF",
+        "img": "assets/images/projects/ftepv3/banner.jpg"
+      },
+      {
+        "id": "2",
+        "type": "overview",
+        "backgroundColor": "#FFFFFF",
+        "title": "Overview",
+        "project": {
+          "date": "Sep 2018",
+          "duration": "2.5 Months (Part Time)",
+          "type": "Individual Academic Project"
+        },
+        "text": [
+          "When I begun work on F-TEP it was clear that the existing interface was not fit for purpose and required a complete overhaul. Unfortunately a very tight deadline had to be met with a reduced team, so the amount of time focused on design was limited in favour of delivering functionality.",
+          "F-TEPv3 is a reimplementation of the existing F-TEP with an upgrade from AngularJS to Angular 7 and this time with a real focus on user experience."
+        ]
+      },
+      {
+        "id": "3",
+        "type": "technologies",
+        "backgroundColor": "#ECECEC",
+        "title": "Technologies"
+      },
+      {
+        "id": "4",
+        "type": "progress",
+        "backgroundColor": "#FFFFFF",
+        "title": "Progress",
+        "text": [
+          "For the initial re-develop I implemented the simple existing pages using more modern technologies. This helped to give an idea on how each page could be restructured and componentised using a centralised data-store.",
+          "With gained knowledge on how the project can be structured technically, the next stage is to analyse the existing work-flows and prepare new designs to discuss with users."
+        ]
+      },
+      {
+        "id": "5",
+        "type": "article",
+        "backgroundColor": "#ECECEC",
+        "title": "Screenshots",
+        "images": [
+          "assets/images/projects/ftepv3/screenshot.png"
+        ],
+        "text": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Forefront",
+    "img": "assets/images/projects/forefront/cover.jpg",
+    "url": "https://forefront.davidnorton.app/",
+    "overview": "Forefront is a template Angular 7 project",
+    "technologies": [
+      "angular", "chai", "cli", "compodoc", "cucumber", "cypress",
+      "express", "jasmine", "karma", "kss", "lighthouse", "material",
+      "mocha", "ngrx", "penv", "pwa", "rxjs", "sass", "typescript", "universal"
+    ],
+    "details": [
+      {
+        "id": "1",
+        "type": "cover",
+        "backgroundColor": "#FFFFFF",
+        "img": "assets/images/projects/forefront/banner.jpg"
+      },
+      {
+        "id": "2",
+        "type": "overview",
+        "backgroundColor": "#FFFFFF",
+        "title": "Overview",
+        "project": {
+          "date": "Oct 2018",
+          "duration": "2 Months (Part Time)",
+          "type": "Individual Academic Project"
+        },
+        "text": [
+          "Forefront is a template Angular 7 project designed to be used as a starting point for future projects. I started putting it together after working on a number of projects using similar technology stacks.",
+          "It comes with reactive state management configured, end to end testing, server-side rendering implementation, progressive web app support and documentation and style-guide generation."
+        ]
+      },
+      {
+        "id": "3",
+        "type": "technologies",
+        "backgroundColor": "#ECECEC",
+        "title": "Technologies"
+      },
+      {
+        "id": "4",
+        "type": "progress",
+        "backgroundColor": "#FFFFFF",
+        "title": "Progress",
+        "text": [
+          "This project is currently in early stages and under development. Most of the core infrastructure has been implemented but a lot of work is still required in terms of design. In the future a number of reusable components will be integrated into the project to further aid starting up future projects."
+        ]
+      },
+      {
+        "id": "5",
+        "type": "article",
+        "backgroundColor": "#ECECEC",
+        "title": "Screenshots",
+        "images": [
+          "assets/images/projects/forefront/screenshot.png"
+        ],
+        "text": [
+
+        ]
+      }
+    ]
+  }
+]

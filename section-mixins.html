@@ -46,40 +46,64 @@
             </a>
           </li>
           <li class="kss-nav__item">
-            <a class="" href="section-layout.html">
+            <a class="" href="section-components.html">
               <span class="kss-nav__ref">2</span>
+              <span class="kss-nav__name">Components</span>
+            </a>
+          </li>
+          <li class="kss-nav__item">
+            <a class="" href="section-layout.html">
+              <span class="kss-nav__ref">3</span>
               <span class="kss-nav__name">Layout</span>
             </a>
           </li>
           <li class="kss-nav__item">
             <a class="kss-state-active" href="section-mixins.html">
-              <span class="kss-nav__ref">3</span>
+              <span class="kss-nav__ref">4</span>
               <span class="kss-nav__name">Mixins</span>
             </a>
                 <ul class="kss-nav__subnav">
                     <li class="kss-nav__item ">
+                      <a href="section-mixins.html#kssref-mixins-layout">
+                        <span class="kss-nav__ref">4.1</span>
+                        <span class="kss-nav__name">Mixins.layout</span>
+                      </a>
+                    </li>
+                    <li class="kss-nav__item kss-nav__item--grandchild">
+                      <a href="section-mixins.html#kssref-mixins-layout-positioning">
+                        <span class="kss-nav__ref">4.1.1</span>
+                        <span class="kss-nav__name">Positioning Mixin</span>
+                      </a>
+                    </li>
+                    <li class="kss-nav__item ">
                       <a href="section-mixins.html#kssref-mixins-text">
-                        <span class="kss-nav__ref">3.1</span>
+                        <span class="kss-nav__ref">4.2</span>
                         <span class="kss-nav__name">Mixins.text</span>
                       </a>
                     </li>
                     <li class="kss-nav__item kss-nav__item--grandchild">
+                      <a href="section-mixins.html#kssref-mixins-text-drop-shadow">
+                        <span class="kss-nav__ref">4.2.1</span>
+                        <span class="kss-nav__name">Dropshadow Mixin</span>
+                      </a>
+                    </li>
+                    <li class="kss-nav__item kss-nav__item--grandchild">
                       <a href="section-mixins.html#kssref-mixins-text-hyperlinks">
-                        <span class="kss-nav__ref">3.1.1</span>
-                        <span class="kss-nav__name">Link colors mixin</span>
+                        <span class="kss-nav__ref">4.2.2</span>
+                        <span class="kss-nav__name">Hyperlink Styling Mixin</span>
                       </a>
                     </li>
                 </ul>
           </li>
           <li class="kss-nav__item">
             <a class="" href="section-text.html">
-              <span class="kss-nav__ref">4</span>
+              <span class="kss-nav__ref">5</span>
               <span class="kss-nav__name">Text</span>
             </a>
           </li>
           <li class="kss-nav__item">
             <a class="" href="section-variables.html">
-              <span class="kss-nav__ref">5</span>
+              <span class="kss-nav__ref">6</span>
               <span class="kss-nav__name">Variables</span>
             </a>
           </li>
@@ -102,7 +126,7 @@
 
               <a class="kss-section__permalink" href="#kssref-mixins">
                 <h1 class="kss-section__item kss-section__item--depth-1">
-                  <span class="kss-section__ref">3</span>
+                  <span class="kss-section__ref">4</span>
                   <span class="kss-section__name">Mixins</span>
                 </h1>
               </a>
@@ -112,13 +136,81 @@
 
 
             </header>
+            <section class="kss-section kss-section--depth-2" id="kssref-mixins-layout">
+
+            <article class="kss-section__content">
+
+              <a class="kss-section__permalink" href="#kssref-mixins-layout">
+                <h2 class="kss-section__item kss-section__item--depth-2">
+                  <span class="kss-section__ref">4.1</span>
+                  <span class="kss-section__name">Mixins.layout</span>
+                </h2>
+              </a>
+
+
+            </article>
+
+
+            </section>
+            <section class="kss-section kss-section--depth-3" id="kssref-mixins-layout-positioning">
+
+            <article class="kss-section__content">
+                <p class="kss-section__source">Source: <span>styles/_mixins.scss</span>, line <span>76</span></p>
+
+              <a class="kss-section__permalink" href="#kssref-mixins-layout-positioning">
+                <h3 class="kss-section__item kss-section__item--depth-3">
+                  <span class="kss-section__ref">4.1.1</span>
+                  <span class="kss-section__name">Positioning Mixin</span>
+                </h3>
+              </a>
+
+                <div class="kss-section__description"><p>Shorthand mixin for offset positioning.</p>
+<p>Usage:</p>
+<ul>
+<li><code>@include positioning(absolute, 0, 0, 0 ,0);</code></li>
+</ul>
+<p>Layout:</p>
+<ul>
+<li>1 container with a nested object</li>
+</ul>
+<p>Parameters:</p>
+<ul>
+<li><code>$type</code> - Either <code>relative</code>, <code>absolute</code> or <code>fixed</code></li>
+<li><code>$top</code> = null - Top offset</li>
+<li><code>$right</code> = null - Right offset</li>
+<li><code>$bottom</code> = null - Bottom offset</li>
+<li><code>$left</code> = null - Left offset</li>
+</ul>
+</div>
+
+            </article>
+
+              <article class="kss-section__modifiers">
+                <h1 class="kss-modifiers__heading">Example</h1>
+
+
+                <div class="kss-modifiers__example"><div class="container">
+    <div class="box-blue"></div>
+    <div class="box-orange"></div>
+</div></div>
+
+              </article>
+
+                <article class="kss-section__markup">
+                  <pre><code class="language-markup">&lt;div class&#x3D;&quot;container&quot;&gt;
+    &lt;div class&#x3D;&quot;box-blue&quot;&gt;&lt;/div&gt;
+    &lt;div class&#x3D;&quot;box-orange&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+                </article>
+
+            </section>
             <section class="kss-section kss-section--depth-2" id="kssref-mixins-text">
 
             <article class="kss-section__content">
 
               <a class="kss-section__permalink" href="#kssref-mixins-text">
                 <h2 class="kss-section__item kss-section__item--depth-2">
-                  <span class="kss-section__ref">3.1</span>
+                  <span class="kss-section__ref">4.2</span>
                   <span class="kss-section__name">Mixins.text</span>
                 </h2>
               </a>
@@ -128,25 +220,28 @@
 
 
             </section>
-            <section class="kss-section kss-section--depth-3" id="kssref-mixins-text-hyperlinks">
+            <section class="kss-section kss-section--depth-3" id="kssref-mixins-text-drop-shadow">
 
             <article class="kss-section__content">
-                <p class="kss-section__source">Source: <span>styles/_mixins.scss</span>, line <span>3</span></p>
+                <p class="kss-section__source">Source: <span>styles/_mixins.scss</span>, line <span>44</span></p>
 
-              <a class="kss-section__permalink" href="#kssref-mixins-text-hyperlinks">
+              <a class="kss-section__permalink" href="#kssref-mixins-text-drop-shadow">
                 <h3 class="kss-section__item kss-section__item--depth-3">
-                  <span class="kss-section__ref">3.1.1</span>
-                  <span class="kss-section__name">Link colors mixin</span>
+                  <span class="kss-section__ref">4.2.1</span>
+                  <span class="kss-section__name">Dropshadow Mixin</span>
                 </h3>
               </a>
 
-                <div class="kss-section__description"><p>This mixin is used to apply the correct styling to hyperlinks throughout the application.
-To use the mixin add the following to the CSS class with whatever colors desired:</p>
-<pre>
-p {
-  @include link-colors($brand-dark, $brand-light, $brand);
-}
-</pre></div>
+                <div class="kss-section__description"><p>Applies a drop-shadow of a set color, best used with states such as hover and active</p>
+<p>Usage:</p>
+<ul>
+<li><code>@include drop-shadow($accent);</code></li>
+</ul>
+<p>Parameters:</p>
+<ul>
+<li><code>$color</code> - Color of the drop-shadow effect</li>
+</ul>
+</div>
 
             </article>
 
@@ -154,20 +249,60 @@ p {
                 <h1 class="kss-modifiers__heading">Example</h1>
 
 
-                <div class="kss-modifiers__example"><p>
-  This is some plain text.
-  <a href="#">This is an example of a hyperlink using the 'link-colors' mixin.</a>
-  This is some more plain text.
-<p></div>
+                <div class="kss-modifiers__example"><img class="dropshadow-mixin-docs" src="./assets/icons/logo.png" alt="LinkedIn"></div>
 
               </article>
 
                 <article class="kss-section__markup">
-                  <pre><code class="language-markup">&lt;p&gt;
-  This is some plain text.
-  &lt;a href&#x3D;&quot;#&quot;&gt;This is an example of a hyperlink using the &#x27;link-colors&#x27; mixin.&lt;/a&gt;
-  This is some more plain text.
-&lt;p&gt;</code></pre>
+                  <pre><code class="language-markup">&lt;img class&#x3D;&quot;dropshadow-mixin-docs&quot; src&#x3D;&quot;./assets/icons/logo.png&quot; alt&#x3D;&quot;LinkedIn&quot;&gt;</code></pre>
+                </article>
+
+            </section>
+            <section class="kss-section kss-section--depth-3" id="kssref-mixins-text-hyperlinks">
+
+            <article class="kss-section__content">
+                <p class="kss-section__source">Source: <span>styles/_mixins.scss</span>, line <span>3</span></p>
+
+              <a class="kss-section__permalink" href="#kssref-mixins-text-hyperlinks">
+                <h3 class="kss-section__item kss-section__item--depth-3">
+                  <span class="kss-section__ref">4.2.2</span>
+                  <span class="kss-section__name">Hyperlink Styling Mixin</span>
+                </h3>
+              </a>
+
+                <div class="kss-section__description"><p>Applies the correct styling to hyperlinks</p>
+<p>Usage:</p>
+<ul>
+<li><code>@include link-colors($brand-dark, $brand-light, $brand);</code></li>
+</ul>
+<p>Parameters:</p>
+<ul>
+<li><code>$visit</code> - Color displayed when visited</li>
+<li><code>$hover</code> = null - Color displayed on hover</li>
+<li><code>$active</code> = null - Color displayed when active</li>
+</ul>
+</div>
+
+            </article>
+
+              <article class="kss-section__modifiers">
+                <h1 class="kss-modifiers__heading">Example</h1>
+
+
+                <div class="kss-modifiers__example"> <p>
+   This is some plain text.
+   <a href="#">This is an example of a hyperlink using the 'link-colors' mixin.</a>
+   This is some more plain text.
+ <p></div>
+
+              </article>
+
+                <article class="kss-section__markup">
+                  <pre><code class="language-markup"> &lt;p&gt;
+   This is some plain text.
+   &lt;a href&#x3D;&quot;#&quot;&gt;This is an example of a hyperlink using the &#x27;link-colors&#x27; mixin.&lt;/a&gt;
+   This is some more plain text.
+ &lt;p&gt;</code></pre>
                 </article>
 
             </section>

@@ -1,0 +1,99 @@
+[
+  {
+    "id": 1,
+    "name": "CGI",
+    "img": "assets/images/companies/cgi_logo.png",
+    "from": "Aug 2015",
+    "to": "present",
+    "roles": [
+      {
+        "id": 1,
+        "headline": "Senior Software Engineer",
+        "from": "Oct 2018",
+        "to": "present",
+        "location": "Leatherhead",
+        "description": [
+          "Introduced Docker and Spring to the development team to successfully deploy a REST service used to query an Accumulo database",
+          "Developed and integrated a reusable automation testing framework with Python & NiFi used to replace manual tests and ensure quality across a number of projects",
+          "Improved code quality and consistency within the department by integrating tools such as SonarQube and EditorConfig into the development process",
+          "Key Skills: Python, Docker, Spring, Cucumber, Gherkin, Behave, NiFi, Agile, Spark, Hadoop, Zookeeper, Kafka"
+        ]
+      },
+      {
+        "id": 2,
+        "headline": "Scrum Master",
+        "from": "Jun 2018",
+        "to": "present",
+        "location": "Leatherhead",
+        "description": [
+          "Organise and facilitate all scrum events (Sprint Planning, Daily Scrum, Sprint Review and Sprint Retrospectives) in a department new to Agile",
+          "Perform daily refactoring on user stories and tickets to ensure developers are not blocked and that acceptance criteria meet client needs",
+          "Report on project progress, team velocity and sprint/release progress to the client and management on a weekly basis",
+          "Defined team way of working and definition of done to ensure a consistent workflow and quality standard for all work delivered",
+          "Obtained Scrum Master certification in July 2018",
+          "Key Tools: Agile, JIRA, Confluence"
+        ]
+      },
+      {
+        "id": 3,
+        "headline": "Lead UX Designer & UI Developer",
+        "from": "Aug 2015",
+        "to": "present",
+        "location": "Leatherhead",
+        "description": [
+          "Forest Thematic Exploitation Platform - Developed a service that offers access to pre-processed satellite/ancillary data and provides an environment and tools for processing forestry data. This is now a widely used service accessed globally within the earth observation community",
+          "Smart Passport Application Forms - Produced a new set of electronic passport application forms for Gibraltar, Guernsey, Jersey & Isle of Man. These utilised the PDF417 standard allowing printed form data to be scanned in, saving time and eliminating mistakes made from previous manual data entry",
+          "Designed and developed prototype interfaces for a number of proposals, leading to winning work for a number of projects",
+          "Uplifted a number of internal projects to bring the quality and branding inline with more modern interfaces",
+          "Ran a number of phone and face to face interviewers for front-end developers across multiple departments, leading to successful hires",
+          "Key Skills: Angular 2-7, AngularJS, JavaScript (ES6), Node.js, JQuery, HTML 5, Sass, Less, CSS3, Bootstrap, Foundation, Material, Selenium, Cypress, Protractor, REST, Karma, Jasmine, Mocha, Chai, Webpack, Gulp, Grunt"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "University of the West of England",
+    "img": "assets/images/companies/uwe_logo.jpg",
+    "from": "Aug 2014",
+    "to": "Aug 2015",
+    "roles": [
+      {
+        "id": 1,
+        "headline": "Peer Assisted Learning Leader",
+        "from": "Aug 2014",
+        "to": "Aug 2015",
+        "location": "Bristol",
+        "description": [
+          "Worked with tutors, employers and careers staff to improve existing student career support",
+          "Gave a number of presentations to help second year students with placement preparation and applications",
+          "Ran one-on-one workshops to advise students with their career goals, CVs, covering letters and placement applications"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "IBM",
+    "img": "assets/images/companies/ibm_logo.png",
+    "from": "Jul 2013",
+    "to": "Aug 2014",
+    "roles": [
+      {
+        "id": 1,
+        "headline": "Software Engineer",
+        "from": "Jul 2013",
+        "to": "Aug 2014",
+        "location": "London",
+        "description": [
+          "Developed a number of the most highly requested features by users, lead usability sessions throughout to ensure user needs were met before release",
+          "Worked in Quality Assurance fixing all high priority defects and fixed all product accessibility defects, ensuring full system compliance",
+          "Developed a Support Assistance tool automating data collection for 2nd line support. This saved a significant amount of time for the team on a daily basis",
+          "Ranked 71st of 15000+ in the IBM Cybersecurity War Games, then lead web-application security events at IBM, UCL & Cambridge University",
+          "Taught programming lessons at Ashburnham Community School and Longfield Primary School, then lead two months of lessons at Macaulay CE School for IBM's Lego Robo Challenge 2014.",
+          "Core Skills: Java, Javascript, Dojo, ANT, Linux"
+        ]
+      }
+    ]
+  }
+]

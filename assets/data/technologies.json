@@ -1,0 +1,275 @@
+[
+  {
+    "id": "android",
+    "name": "Android",
+    "img": "android.png",
+    "link": "https://www.android.com/",
+    "description": "Mobile Operating System"
+  },
+  {
+    "id": "angular",
+    "name": "Angular",
+    "img": "angular.png",
+    "link": "https://angular.io/",
+    "description": "Web Application Framework"
+  },
+  {
+    "id": "angularjs",
+    "name": "Angular JS",
+    "img": "angularjs.png",
+    "link": "https://angularjs.org/",
+    "description": "Web Application Framework"
+  },
+  {
+    "id": "behave",
+    "name": "Behave",
+    "img": "behave.png",
+    "link": "https://behave.readthedocs.io",
+    "description": "Behaviour Driven Development"
+  },
+  {
+    "id": "bootstrap",
+    "name": "Bootstrap",
+    "img": "bootstrap.png",
+    "link": "https://getbootstrap.com/",
+    "description": "HTML, CSS, & JS Toolkit"
+  },
+  {
+    "id": "chai",
+    "name": "Chai",
+    "img": "chai.png",
+    "link": "https://www.chaijs.com/",
+    "description": "BDD / TDD Assertion Library"
+  },
+  {
+    "id": "cli",
+    "name": "Angular Cli",
+    "img": "cli.png",
+    "link": "https://cli.angular.io/",
+    "description": "Command Line Interface for Angular"
+  },
+  {
+    "id": "compodoc",
+    "name": "Compodoc",
+    "img": "compodoc.png",
+    "link": "https://compodoc.app/",
+    "description": "Documentation Generator"
+  },
+  {
+    "id": "cucumber",
+    "name": "Cucumber",
+    "img": "cucumber.png",
+    "link": "https://cucumber.io/",
+    "description": "Automation Testing"
+  },
+  {
+    "id": "cypress",
+    "name": "Cypress",
+    "img": "cypress.png",
+    "link": "https://www.cypress.io/",
+    "description": "Automation Testing"
+  },
+  {
+    "id": "electron",
+    "name": "Electron",
+    "img": "electron.png",
+    "link": "https://electronjs.org/",
+    "description": "Build Cross Platform Desktop Apps"
+  },
+  {
+    "id": "espresso",
+    "name": "Espresso",
+    "img": "espresso.png",
+    "link": "https://developer.android.com/training/testing/espresso/",
+    "description": "Android UI Tests"
+  },
+  {
+    "id": "express",
+    "name": "Express",
+    "img": "express.png",
+    "link": "https://expressjs.com/",
+    "description": "Node.js Web Framework"
+  },
+  {
+    "id": "firebase",
+    "name": "Firebase",
+    "img": "firebase.png",
+    "link": "https://firebase.google.com/",
+    "description": "Web Application Development Platform"
+  },
+  {
+    "id": "grunt",
+    "name": "Grunt",
+    "img": "grunt.png",
+    "link": "https://gruntjs.com/",
+    "description": "JavaScript Task Runner"
+  },
+  {
+    "id": "hateoas",
+    "name": "Traverson",
+    "img": "hateoas.png",
+    "link": "https://github.com/traverson/traverson",
+    "description": "HATEOAS Client"
+  },
+  {
+    "id": "jasmine",
+    "name": "Jasmine",
+    "img": "jasmine.png",
+    "link": "https://jasmine.github.io/",
+    "description": "Behavior-Driven JavaScript"
+  },
+  {
+    "id": "java",
+    "name": "Java",
+    "img": "java.png",
+    "link": "https://www.java.com",
+    "description": "High-Level Programming Language"
+  },
+  {
+    "id": "javascript",
+    "name": "JavaScript",
+    "img": "javascript.png",
+    "link": "https://www.javascript.com/",
+    "description": "High-Level Programming Language"
+  },
+  {
+    "id": "karma",
+    "name": "Karma",
+    "img": "karma.png",
+    "link": "https://karma-runner.github.io",
+    "description": "Test Runner for JavaScript"
+  },
+  {
+    "id": "kss",
+    "name": "KSS",
+    "img": "kss.png",
+    "link": "https://warpspire.com/kss/styleguides/",
+    "description": "Styleguide Generator"
+  },
+  {
+    "id": "less",
+    "name": "Less",
+    "img": "less.png",
+    "link": "http://lesscss.org/",
+    "description": "Less Extends CSS"
+  },
+  {
+    "id": "lighthouse",
+    "name": "Lighthouse",
+    "img": "lighthouse.png",
+    "link": "https://developers.google.com/web/tools/lighthouse/",
+    "description": "Quality Auditing"
+  },
+  {
+    "id": "livecycle",
+    "name": "Livecycle",
+    "img": "livecycle.png",
+    "link": "https://www.adobe.com/uk/products/livecycle.html",
+    "description": "Adobe LiveCycle Enterprise Suite"
+  },
+  {
+    "id": "material",
+    "name": "Material",
+    "img": "material.png",
+    "link": "https://material.angular.io/",
+    "description": "Components & Styling"
+  },
+  {
+    "id": "mocha",
+    "name": "Mocha",
+    "img": "mocha.png",
+    "link": "https://mochajs.org/",
+    "description": "JavaScript Test Framework"
+  },
+  {
+    "id": "ng-bootstrap",
+    "name": "ng-bootstrap",
+    "img": "ng-bootstrap.png",
+    "link": "https://ng-bootstrap.github.io",
+    "description": "Angular Widgets"
+  },
+  {
+    "id": "ngrx",
+    "name": "ngrx",
+    "img": "ngrx.png",
+    "link": "https://github.com/ngrx",
+    "description": "Reactive Extensions for Angular"
+  },
+  {
+    "id": "penv",
+    "name": "Penv",
+    "img": "penv.png",
+    "link": "https://github.com/julianduque/penv",
+    "description": "Package Environment Customizer"
+  },
+  {
+    "id": "python",
+    "name": "Python",
+    "img": "python.png",
+    "link": "https://www.python.org/",
+    "description": "High-Level Programming Language"
+  },
+  {
+    "id": "openlayers",
+    "name": "OpenLayers",
+    "img": "openlayers.png",
+    "link": "https://openlayers.org/",
+    "description": "Map Data Visualisation"
+  },
+  {
+    "id": "protractor",
+    "name": "Protractor",
+    "img": "protractor.png",
+    "link": "http://www.protractortest.org",
+    "description": "End-to-end Test Framework"
+  },
+  {
+    "id": "pwa",
+    "name": "PWA",
+    "img": "pwa.png",
+    "link": "https://angular.io/guide/service-worker-getting-started",
+    "description": "Progressive Web App Support"
+  },
+  {
+    "id": "rxjs",
+    "name": "RxJS",
+    "img": "rxjs.png",
+    "link": "https://rxjs-dev.firebaseapp.com/",
+    "description": "Reactive Extensions for JavaScript"
+  },
+  {
+    "id": "sass",
+    "name": "Sass",
+    "img": "sass.png",
+    "link": "https://sass-lang.com",
+    "description": "Syntactically Awesome Style Sheets"
+  },
+  {
+    "id": "selenium",
+    "name": "Selenium",
+    "img": "selenium.png",
+    "link": "https://www.seleniumhq.org/",
+    "description": "Web Browser Automation"
+  },
+  {
+    "id": "travis",
+    "name": "Travis",
+    "img": "travis.png",
+    "link": "https://travis-ci.org/",
+    "description": "Continuous Integration"
+  },
+  {
+    "id": "typescript",
+    "name": "TypeScript",
+    "img": "typescript.png",
+    "link": "https://www.typescriptlang.org/",
+    "description": "Strict Superset of JavaScript"
+  },
+  {
+    "id": "universal",
+    "name": "Angular Universal",
+    "img": "universal.png",
+    "link": "https://angular.io/guide/universal",
+    "description": "Server-side Rendering"
+  }
+]

@@ -5628,176 +5628,406 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6; } }
 @font-face {
   font-family: 'Quicksand';
-  src: url('Quicksand-Regular.otf'); }
-@font-face {
-  font-family: 'Quicksand-Bold';
-  src: url('Quicksand-Bold.otf'); }
-.font-bold {
-  font-family: Quicksand-Bold, sans-serif; }
-@font-face {
-  font-family: 'Quicksand-BoldItalic';
-  src: url('Quicksand-BoldItalic.otf'); }
-.font-bold-italic {
-  font-family: Quicksand-BoldItalic, sans-serif; }
-@font-face {
-  font-family: 'Quicksand-Dash';
-  src: url('Quicksand-Dash.otf'); }
-.font-dash {
-  font-family: Quicksand-Dash, sans-serif; }
-@font-face {
-  font-family: 'Quicksand-Italic';
-  src: url('Quicksand-Italic.otf'); }
-.font-italic {
-  font-family: Quicksand-Italic, sans-serif; }
-@font-face {
-  font-family: 'Quicksand-Light';
-  src: url('Quicksand-Light.otf'); }
-.font-light {
-  font-family: Quicksand-Light, sans-serif; }
-@font-face {
-  font-family: 'Quicksand-LightItalic';
-  src: url('Quicksand-LightItalic.otf'); }
-.font-light-italic {
-  font-family: Quicksand-LightItalic, sans-serif; }
-@font-face {
-  font-family: 'Windsong';
-  src: url('Windsong.ttf'); }
-.font-windsong {
-  font-family: Windsong, sans-serif; }
+  src: url("/assets/fonts/Quicksand-Regular.otf");
+  font-weight: normal;
+  font-style: normal; }
 @font-face {
   font-family: 'Quicksand';
-  src: url('Quicksand-Regular.otf'); }
+  src: url("/assets/fonts/Quicksand-RegularItalic.otf");
+  font-weight: normal;
+  font-style: italic; }
 @font-face {
-  font-family: 'Quicksand-Bold';
-  src: url('Quicksand-Bold.otf'); }
-.font-bold {
-  font-family: Quicksand-Bold, sans-serif; }
+  font-family: 'Quicksand';
+  src: url("/assets/fonts/Quicksand-Bold.otf");
+  font-weight: bold;
+  font-style: normal; }
 @font-face {
-  font-family: 'Quicksand-BoldItalic';
-  src: url('Quicksand-BoldItalic.otf'); }
-.font-bold-italic {
-  font-family: Quicksand-BoldItalic, sans-serif; }
+  font-family: 'Quicksand';
+  src: url("/assets/fonts/Quicksand-BoldItalic.otf");
+  font-weight: bold;
+  font-style: italic; }
+@font-face {
+  font-family: 'Quicksand';
+  src: url("/assets/fonts/Quicksand-Light.otf");
+  font-weight: 100;
+  font-style: normal; }
+@font-face {
+  font-family: 'Quicksand';
+  src: url("/assets/fonts/Quicksand-LightItalic.otf");
+  font-weight: 100;
+  font-style: italic; }
 @font-face {
   font-family: 'Quicksand-Dash';
-  src: url('Quicksand-Dash.otf'); }
+  src: url("/assets/fonts/Quicksand-Dash.otf"); }
 .font-dash {
   font-family: Quicksand-Dash, sans-serif; }
 @font-face {
-  font-family: 'Quicksand-Italic';
-  src: url('Quicksand-Italic.otf'); }
-.font-italic {
-  font-family: Quicksand-Italic, sans-serif; }
-@font-face {
-  font-family: 'Quicksand-Light';
-  src: url('Quicksand-Light.otf'); }
-.font-light {
-  font-family: Quicksand-Light, sans-serif; }
-@font-face {
-  font-family: 'Quicksand-LightItalic';
-  src: url('Quicksand-LightItalic.otf'); }
-.font-light-italic {
-  font-family: Quicksand-LightItalic, sans-serif; }
-@font-face {
   font-family: 'Windsong';
-  src: url('Windsong.ttf'); }
+  src: url("/assets/fonts/Windsong.ttf"); }
 .font-windsong {
   font-family: Windsong, sans-serif; }
+@font-face {
+  font-family: 'Proxima-Nova';
+  src: url("/assets/fonts/Proxima-Nova-Alt-Regular.eot");
+  src: url("/assets/fonts/Proxima-Nova-Alt-Regular.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/Proxima Nova Alt Regular.woff") format("woff"), url("/assets/fonts/Proxima Nova Alt Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+/*
+Hyperlink Styling Mixin
+
+Applies the correct styling to hyperlinks
+
+Usage:
+
+* `@include link-colors($brand-dark, $brand-light, $brand);`
+
+Parameters:
+
+* `$visit` - Color displayed when visited
+* `$hover` = null - Color displayed on hover
+* `$active` = null - Color displayed when active
+
+
+
+Markup:
+ <p>
+   This is some plain text.
+   <a href="#">This is an example of a hyperlink using the 'link-colors' mixin.</a>
+   This is some more plain text.
+ <p>
+
+Styleguide Mixins.text.hyperlinks
+*/
+/*
+Dropshadow Mixin
+
+Applies a drop-shadow of a set color, best used with states such as hover and active
+
+Usage:
+
+* `@include drop-shadow($accent);`
+
+Parameters:
+
+* `$color` - Color of the drop-shadow effect
+
+
+
+Markup:
+<img class="dropshadow-mixin-docs" src="./assets/icons/logo.png" alt="LinkedIn">
+
+Styleguide Mixins.text.drop-shadow
+*/
+.dropshadow-mixin-docs {
+  width: 6rem; }
+.dropshadow-mixin-docs:hover {
+    -webkit-filter: drop-shadow(2px 2px 12px #EF9A9A);
+            filter: drop-shadow(2px 2px 12px #EF9A9A); }
+/*
+Positioning Mixin
+
+Shorthand mixin for offset positioning.
+
+Usage:
+
+* `@include positioning(absolute, 0, 0, 0 ,0);`
+
+Layout:
+
+* 1 container with a nested object
+
+Parameters:
+
+* `$type` - Either `relative`, `absolute` or `fixed`
+* `$top` = null - Top offset
+* `$right` = null - Right offset
+* `$bottom` = null - Bottom offset
+* `$left` = null - Left offset
+
+
+
+Markup:
+<div class="container">
+    <div class="box-blue"></div>
+    <div class="box-orange"></div>
+</div>
+
+Styleguide Mixins.layout.positioning
+*/
+.box-orange {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background: orange;
+  width: 100px;
+  height: 100px; }
+.box-blue {
+  background: lightskyblue;
+  height: 100px;
+  width: 100px; }
+@font-face {
+  font-family: 'Quicksand';
+  src: url("/assets/fonts/Quicksand-Regular.otf");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Quicksand';
+  src: url("/assets/fonts/Quicksand-RegularItalic.otf");
+  font-weight: normal;
+  font-style: italic; }
+@font-face {
+  font-family: 'Quicksand';
+  src: url("/assets/fonts/Quicksand-Bold.otf");
+  font-weight: bold;
+  font-style: normal; }
+@font-face {
+  font-family: 'Quicksand';
+  src: url("/assets/fonts/Quicksand-BoldItalic.otf");
+  font-weight: bold;
+  font-style: italic; }
+@font-face {
+  font-family: 'Quicksand';
+  src: url("/assets/fonts/Quicksand-Light.otf");
+  font-weight: 100;
+  font-style: normal; }
+@font-face {
+  font-family: 'Quicksand';
+  src: url("/assets/fonts/Quicksand-LightItalic.otf");
+  font-weight: 100;
+  font-style: italic; }
+@font-face {
+  font-family: 'Quicksand-Dash';
+  src: url("/assets/fonts/Quicksand-Dash.otf"); }
+.font-dash {
+  font-family: Quicksand-Dash, sans-serif; }
+@font-face {
+  font-family: 'Windsong';
+  src: url("/assets/fonts/Windsong.ttf"); }
+.font-windsong {
+  font-family: Windsong, sans-serif; }
+@font-face {
+  font-family: 'Proxima-Nova';
+  src: url("/assets/fonts/Proxima-Nova-Alt-Regular.eot");
+  src: url("/assets/fonts/Proxima-Nova-Alt-Regular.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/Proxima Nova Alt Regular.woff") format("woff"), url("/assets/fonts/Proxima Nova Alt Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+/*
+Hyperlink Styling Mixin
+
+Applies the correct styling to hyperlinks
+
+Usage:
+
+* `@include link-colors($brand-dark, $brand-light, $brand);`
+
+Parameters:
+
+* `$visit` - Color displayed when visited
+* `$hover` = null - Color displayed on hover
+* `$active` = null - Color displayed when active
+
+
+
+Markup:
+ <p>
+   This is some plain text.
+   <a href="#">This is an example of a hyperlink using the 'link-colors' mixin.</a>
+   This is some more plain text.
+ <p>
+
+Styleguide Mixins.text.hyperlinks
+*/
+/*
+Dropshadow Mixin
+
+Applies a drop-shadow of a set color, best used with states such as hover and active
+
+Usage:
+
+* `@include drop-shadow($accent);`
+
+Parameters:
+
+* `$color` - Color of the drop-shadow effect
+
+
+
+Markup:
+<img class="dropshadow-mixin-docs" src="./assets/icons/logo.png" alt="LinkedIn">
+
+Styleguide Mixins.text.drop-shadow
+*/
+.dropshadow-mixin-docs {
+  width: 6rem; }
+.dropshadow-mixin-docs:hover {
+    -webkit-filter: drop-shadow(2px 2px 12px #EF9A9A);
+            filter: drop-shadow(2px 2px 12px #EF9A9A); }
+/*
+Positioning Mixin
+
+Shorthand mixin for offset positioning.
+
+Usage:
+
+* `@include positioning(absolute, 0, 0, 0 ,0);`
+
+Layout:
+
+* 1 container with a nested object
+
+Parameters:
+
+* `$type` - Either `relative`, `absolute` or `fixed`
+* `$top` = null - Top offset
+* `$right` = null - Right offset
+* `$bottom` = null - Bottom offset
+* `$left` = null - Left offset
+
+
+
+Markup:
+<div class="container">
+    <div class="box-blue"></div>
+    <div class="box-orange"></div>
+</div>
+
+Styleguide Mixins.layout.positioning
+*/
+.box-orange {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background: orange;
+  width: 100px;
+  height: 100px; }
+.box-blue {
+  background: lightskyblue;
+  height: 100px;
+  width: 100px; }
 html {
   font-size: 10px; }
 body {
   font-family: Quicksand, sans-serif;
   font-size: 10px; }
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 600;
-  line-height: 1.2;
-  margin: 0; }
-h1 a:link, h1 a:visited,
-  h2 a:link,
-  h2 a:visited,
-  h3 a:link,
-  h3 a:visited,
-  h4 a:link,
-  h4 a:visited,
-  h5 a:link,
-  h5 a:visited,
-  h6 a:link,
-  h6 a:visited {
-    color: #3F51B5; }
-h1 a:hover,
-  h2 a:hover,
-  h3 a:hover,
-  h4 a:hover,
-  h5 a:hover,
-  h6 a:hover {
-    color: #303F9F;
-    text-decoration: underline; }
-h1 a:active,
-  h2 a:active,
-  h3 a:active,
-  h4 a:active,
-  h5 a:active,
-  h6 a:active {
-    color: #7986CB; }
 h1 {
   font-size: 3rem;
   font-weight: 400;
-  letter-spacing: 0.075rem;
+  font-family: Proxima-Nova, Corbel, sans-serif;
+  letter-spacing: 0.5rem;
+  line-height: 1.2;
   margin: 3rem 0; }
+h1 a:link, h1 a:visited {
+    color: #3F51B5; }
+h1 a:hover {
+    color: #303F9F;
+    text-decoration: underline; }
+h1 a:active {
+    color: #7986CB; }
+@media screen and (min-width: 768px) {
+    h1 {
+      font-size: 4.00rem; } }
+@media screen and (min-width: 992px) {
+    h1 {
+      font-size: 4.80rem; } }
 h2 {
   font-size: 2.4rem;
   font-weight: 700;
-  margin: 1.5rem 0; }
+  line-height: 1.2;
+  margin: 1.5rem 0;
+  padding: 1rem; }
+h2 a:link, h2 a:visited {
+    color: #3F51B5; }
+h2 a:hover {
+    color: #303F9F;
+    text-decoration: underline; }
+h2 a:active {
+    color: #7986CB; }
+@media screen and (min-width: 768px) {
+    h2 {
+      font-size: 3.20rem; } }
+@media screen and (min-width: 992px) {
+    h2 {
+      font-size: 3.84rem; } }
 h3 {
   font-size: 2.2rem;
   font-weight: 700;
+  line-height: 1.2;
   margin: 1rem 0;
   padding-bottom: 0.2rem; }
+h3 a:link, h3 a:visited {
+    color: #3F51B5; }
+h3 a:hover {
+    color: #303F9F;
+    text-decoration: underline; }
+h3 a:active {
+    color: #7986CB; }
+@media screen and (min-width: 768px) {
+    h3 {
+      font-size: 2.93rem; } }
+@media screen and (min-width: 992px) {
+    h3 {
+      font-size: 3.52rem; } }
 h4 {
   font-size: 2rem;
   font-weight: 700;
+  line-height: 1.2;
   margin: 0.67rem 0; }
+h4 a:link, h4 a:visited {
+    color: #3F51B5; }
+h4 a:hover {
+    color: #303F9F;
+    text-decoration: underline; }
+h4 a:active {
+    color: #7986CB; }
+@media screen and (min-width: 768px) {
+    h4 {
+      font-size: 2.67rem; } }
+@media screen and (min-width: 992px) {
+    h4 {
+      font-size: 3.2rem; } }
 h5 {
   font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.2;
   margin: 0.94rem 0; }
+h5 a:link, h5 a:visited {
+    color: #3F51B5; }
+h5 a:hover {
+    color: #303F9F;
+    text-decoration: underline; }
+h5 a:active {
+    color: #7986CB; }
+@media screen and (min-width: 768px) {
+    h5 {
+      font-size: 2.4rem; } }
+@media screen and (min-width: 992px) {
+    h5 {
+      font-size: 2.88rem; } }
 h6 {
   font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2;
   margin: 1rem 0; }
-@media screen and (min-width: 768px) {
-  h1 {
-    font-size: 4.00rem; }
-  h2 {
-    font-size: 3.20rem; }
-  h3 {
-    font-size: 2.93rem; }
-  h4 {
-    font-size: 2.67rem; }
-  h5 {
-    font-size: 2.4rem; }
-  h6 {
-    font-size: 2.13rem; } }
-@media screen and (min-width: 992px) {
-  h1 {
-    font-size: 4.80rem; }
-  h2 {
-    font-size: 3.84rem; }
-  h3 {
-    font-size: 3.52rem; }
-  h4 {
-    font-size: 3.2rem; }
-  h5 {
-    font-size: 2.88rem; }
-  h6 {
-    font-size: 2.56rem; } }
-.header-styled {
-  border-bottom: 1px solid #EF9A9A;
-  color: #EF9A9A; }
-.header-styled a:link, .header-styled a:visited {
-    color: #EF9A9A; }
-.header-styled a:hover {
-    color: #E57373;
+h6 a:link, h6 a:visited {
+    color: #3F51B5; }
+h6 a:hover {
+    color: #303F9F;
     text-decoration: underline; }
-.header-styled a:active {
-    color: #FFCDD2; }
+h6 a:active {
+    color: #7986CB; }
+@media screen and (min-width: 768px) {
+    h6 {
+      font-size: 2.13rem; } }
+@media screen and (min-width: 992px) {
+    h6 {
+      font-size: 2.56rem; } }
+.section-title {
+  padding: 4rem;
+  text-align: center;
+  text-transform: uppercase; }
+@media screen and (min-width: 576px) {
+    .section-title {
+      padding: 8rem; } }
 p {
   margin-top: 1rem;
   margin-bottom: 1.5rem; }
@@ -5812,6 +6042,50 @@ a {
   text-decoration: none; }
 a:hover {
     text-decoration: none; }
+.page-banner {
+  display: block;
+  padding: 18rem 0 16rem;
+  position: relative; }
+.page-banner .banner-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(33, 33, 33, 0.3);
+    z-index: 3; }
+.page-banner .banner-image-wrapper {
+    background-color: #212121;
+    display: block;
+    margin: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; }
+.page-banner .banner-image-wrapper img {
+      position: relative;
+      min-height: 100%;
+      min-width: 100%; }
+.page-banner .banner-text-wrapper {
+    color: #fff;
+    letter-spacing: 1px;
+    margin: 20px auto;
+    padding: 4rem;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    z-index: 4; }
+.page-banner .banner-text-wrapper h1 {
+      font-size: 68px;
+      font-weight: 700;
+      line-height: 1em;
+      margin: 0; }
+.page-banner .banner-text-wrapper p {
+      font-style: italic;
+      font-size: 18px;
+      line-height: 1.5em; }
 body {
   margin: 0;
   min-height: 100vh;
@@ -5820,36 +6094,23 @@ body {
   clear: both;
   font-size: 1.6rem;
   height: 100%;
-  line-height: 2;
-  padding: 2rem 2rem 8rem 2rem; }
-@media screen and (min-width: 768px) {
-  .content {
-    font-size: 1.6rem;
-    line-height: 2; } }
-@media screen and (min-width: 992px) {
-  .content {
-    font-size: 1.8rem;
-    line-height: 2.25; } }
+  line-height: 1.4;
+  margin: auto;
+  padding-bottom: 4rem; }
+.page-content {
+  max-width: 1800px;
+  margin: auto; }
 section {
-  background-color: #F4F4F4;
-  padding: 2rem;
-  margin-bottom: 1rem; }
-section.subsection {
-    padding: 0; }
+  margin-bottom: 1rem;
+  padding: 1rem 2rem; }
+.subsection {
+  padding: 0; }
 @media screen and (min-width: 768px) {
-  section {
-    padding: 2rem;
-    margin-bottom: 2rem; }
-    section.subsection {
-      padding: 1rem 2rem; } }
-@media screen and (min-width: 992px) {
-  section {
-    padding: 2rem 4rem;
-    margin-bottom: 2rem; }
-    section.subsection {
+    .subsection {
       padding: 1rem 2rem; } }
 aside {
   background-color: #F7F3EA;
+  display: inline-block;
   padding: 2em; }
 .pagination-container {
   clear: both;
@@ -5857,17 +6118,21 @@ aside {
   text-align: center; }
 .pagination-container .ngx-pagination {
     padding: 0; }
+.pagination-container .ngx-pagination .current {
+      background-color: #3F51B5; }
+.pagination-container .ngx-pagination .current:hover {
+        background-color: #7986CB; }
 .pagination-container .ngx-pagination li a, .pagination-container .ngx-pagination .current {
-      padding: 0 2rem; }
+      padding: 1rem 2rem; }
 .pagination-container .ngx-pagination .pagination-next, .pagination-container .ngx-pagination .pagination-previous {
       padding: 0; }
 .pagination-container .ngx-pagination .pagination-next a, .pagination-container .ngx-pagination .pagination-previous a {
-        padding: 0 1rem; }
+        padding: 1rem 2rem; }
 .pagination-container .ngx-pagination .pagination-next.disabled, .pagination-container .ngx-pagination .pagination-previous.disabled {
-        padding: 0 1rem; }
+        padding: 1rem 2rem; }
 @media screen and (max-width: 768px) {
-  .pagination-container {
-    font-size: 1.2rem; } }
+    .pagination-container {
+      font-size: 1.2rem; } }
 
 
 /*# sourceMappingURL=styles.css.map*/

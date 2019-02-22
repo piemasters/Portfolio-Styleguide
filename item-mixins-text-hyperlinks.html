@@ -46,26 +46,32 @@
             </a>
           </li>
           <li class="kss-nav__item">
-            <a class="" href="section-layout.html">
+            <a class="" href="section-components.html">
               <span class="kss-nav__ref">2</span>
+              <span class="kss-nav__name">Components</span>
+            </a>
+          </li>
+          <li class="kss-nav__item">
+            <a class="" href="section-layout.html">
+              <span class="kss-nav__ref">3</span>
               <span class="kss-nav__name">Layout</span>
             </a>
           </li>
           <li class="kss-nav__item">
             <a class="" href="section-mixins.html">
-              <span class="kss-nav__ref">3</span>
+              <span class="kss-nav__ref">4</span>
               <span class="kss-nav__name">Mixins</span>
             </a>
           </li>
           <li class="kss-nav__item">
             <a class="" href="section-text.html">
-              <span class="kss-nav__ref">4</span>
+              <span class="kss-nav__ref">5</span>
               <span class="kss-nav__name">Text</span>
             </a>
           </li>
           <li class="kss-nav__item">
             <a class="" href="section-variables.html">
-              <span class="kss-nav__ref">5</span>
+              <span class="kss-nav__ref">6</span>
               <span class="kss-nav__name">Variables</span>
             </a>
           </li>
@@ -89,18 +95,23 @@
 
               <a class="kss-section__permalink" href="#kssref-mixins-text-hyperlinks">
                 <h3 class="kss-section__item kss-section__item--depth-3">
-                  <span class="kss-section__ref">3.1.1</span>
-                  <span class="kss-section__name">Link colors mixin</span>
+                  <span class="kss-section__ref">4.2.2</span>
+                  <span class="kss-section__name">Hyperlink Styling Mixin</span>
                 </h3>
               </a>
 
-                <div class="kss-section__description"><p>This mixin is used to apply the correct styling to hyperlinks throughout the application.
-To use the mixin add the following to the CSS class with whatever colors desired:</p>
-<pre>
-p {
-  @include link-colors($brand-dark, $brand-light, $brand);
-}
-</pre></div>
+                <div class="kss-section__description"><p>Applies the correct styling to hyperlinks</p>
+<p>Usage:</p>
+<ul>
+<li><code>@include link-colors($brand-dark, $brand-light, $brand);</code></li>
+</ul>
+<p>Parameters:</p>
+<ul>
+<li><code>$visit</code> - Color displayed when visited</li>
+<li><code>$hover</code> = null - Color displayed on hover</li>
+<li><code>$active</code> = null - Color displayed when active</li>
+</ul>
+</div>
 
             </article>
 
@@ -108,20 +119,20 @@ p {
                 <h1 class="kss-modifiers__heading">Example</h1>
 
 
-                <div class="kss-modifiers__example"><p>
-  This is some plain text.
-  <a href="#">This is an example of a hyperlink using the 'link-colors' mixin.</a>
-  This is some more plain text.
-<p></div>
+                <div class="kss-modifiers__example"> <p>
+   This is some plain text.
+   <a href="#">This is an example of a hyperlink using the 'link-colors' mixin.</a>
+   This is some more plain text.
+ <p></div>
 
               </article>
 
                 <article class="kss-section__markup">
-                  <pre><code class="language-markup">&lt;p&gt;
-  This is some plain text.
-  &lt;a href&#x3D;&quot;#&quot;&gt;This is an example of a hyperlink using the &#x27;link-colors&#x27; mixin.&lt;/a&gt;
-  This is some more plain text.
-&lt;p&gt;</code></pre>
+                  <pre><code class="language-markup"> &lt;p&gt;
+   This is some plain text.
+   &lt;a href&#x3D;&quot;#&quot;&gt;This is an example of a hyperlink using the &#x27;link-colors&#x27; mixin.&lt;/a&gt;
+   This is some more plain text.
+ &lt;p&gt;</code></pre>
                 </article>
 
             </header>
